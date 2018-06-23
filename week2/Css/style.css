@@ -1,0 +1,46 @@
+div.container
+{
+    width:100%;
+    border:10px solid rgb(241, 29, 29)
+}
+header, footer {
+    padding: 1em;
+    color: rgb(12, 103, 223);
+    background-color: orange;
+    clear: left;
+    text-align: center;
+    font-size:xx-large;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid rgb(240, 78, 14);
+    padding: 1em;
+    overflow: hidden;
+}
+
+test:hover
+{
+color:aqua;
+    
+}
+test:active
+{
+    color:orangered;
+    text-decoration: none;
+    font-weight:normal;
+}
